@@ -7,13 +7,19 @@ body p{
 		font-size: 15px;
 }
 
-/*body a{
-		text-decoration: none !important;
-}*/
 
-hr{
-	color: #4B4B4B;
+body a:hover{
+	color: red;
 }
+ body a:active{
+	color: blue;
+}
+
+
+ body a:active{
+	color: green;
+}
+
 
 .bg-home{
 	background:linear-gradient(100deg, rgba(0,0,128, 0.3) -30%, rgba(0,0,128, 0.4) 70%),url(../img/robot.jpg)!important; 
@@ -21,16 +27,12 @@ hr{
 	background-repeat: no-repeat !important;
 }
 
-.ul li{
-		color: #077187;
-		margin-top: 10px;
+.nav-dec{
+		margin-top: 9px;
 		padding: 6px;
-		font-size: 16px;
+		font-size: 14px;
 }
 
-.bs{
-	box-shadow: 0 4px 10px rgba(0,0,0,43);
-}
 .li{
 	color: #077187;
 }
@@ -39,29 +41,19 @@ hr{
 		font-size: 40px;
 }
 
-.section:p{
-			font-size: 15px;
-}
-.section:h3{
-			font-size: 30px;
-			text-align: center;
-}
+
 .ul{
 	list-style-type: none outside;
 }
 
 
 #footer{
-		background-color: #4B4B4B;
+		background-color: black;
 		margin-top: 20px;
-		padding-bottom: 10px;
 }
 #footer h3{
-			color: #077187;
+			color: #074F57;
 			margin-top: 40px;
 }
-#footer p{
-			color: white;
-}
 
-s
+

@@ -1,7 +1,6 @@
 <?php include('header.php');?> 
 <div class="container">
 	<div class="row">
-		<div class="col-md-9">
 			<h3>The Company</h3><hr>
 					<img src="img/logo1.png"><p>Robotic Systems was founded in October 2010 and incorporated in July 2013. The need to start a company specialized in technology solutions with emphasis on security and artificial intelligence arose from a desire to solve the challenges facing the African continent and the world at large. We also know that for a fast growing civilization, one of the key needs is cheap and easy wide-reaching accessibility to technology. Being passionate about security and artificial intelligence, Robotic Systems was thus founded to be a company that will provide high quality ICT solutions that is built with security and easy accessibility in mind and provided to the community at the best prices.
 					
@@ -14,20 +13,6 @@
 
 				We believe in our dream but do you? We are always on the look out for young passionate programmers and security enthusiasts with basic TCP/IP skills to enhance our security team.
 			</p>
-	
-		</div>
-
-		<div class="col-md-3">
-			<div class="col-md-12 well">
-				
-			</div>
-			<div class="col-md-12 well">
-				
-			</div>
-	
-		</div>
-		
-		
 	</div>
 	
 </div>

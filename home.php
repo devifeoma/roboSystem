@@ -37,8 +37,6 @@
           It’s all simple now. Your business can make and accept pa 
           mobile money wallets, and bank accounts -- from anywhere</p>
           <a href="data-office.php"><button type="button" class="btn btn-primary">Read more</button></a>
-
-          
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
         <img src="img/erp-icon.png" height="150">

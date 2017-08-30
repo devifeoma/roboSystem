@@ -22,26 +22,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Robotic Systems</a>
+                <a class="navbar-brand" href="home.php">Robotic Systems</a>
             </div>
     
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse nav-dec">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="home.php">HOME</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li><a href="#">Separated link</a></li>
+                            <li><a href="about.php">COMPANY</a></li>
+                            <li><a href="contact.php">CONTACT INFORMATION</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">about Us</a></li>
-                      <li><a href="#">Portfolio</a></li>
-                       <li><a href="#">Product & Services</a></li>
-                       <li><a href="#">Software Download</a></li>
+                    <li><a href="portfolio.php">PORTFOLIO</a></li>
+                    <li><a href="product-services.php">PRODUCT & SERVICES</a></li>
+                    <li><a href="anti-malware.php">SOFTWARE DOWNLOADS</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div>
