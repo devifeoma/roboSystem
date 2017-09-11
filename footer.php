@@ -25,9 +25,9 @@
                 <p>Address: No 32, Barikisu Iyede Street, off Unilag road, Yaba, Lagos, Nigeria.</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3">
-                <h3>Follos Us</h3>
-              <p><a href="https://www.facebook.com/robosys">Facebook</a></p>
-              <p><a href="http://www.robosyslive.com/twitter.com/robosys">Twitter</a></p>
+                <h3>Follow Us</h3>
+              <p><a href="#">Facebook</a></p>
+              <p><a href="#">Twitter</a></p>
               <p><a href="#">Google</a></p>
               <p><a href="#">Instagram</a></p>
              

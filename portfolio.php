@@ -1,4 +1,7 @@
-<?php include("header.php");?>
+<?php 
+include("header.php");
+$page = 'portfolio'; 
+?>
     <div class="container">
         <div class="row">
             <h2>Portfolio</h2><hr>
@@ -61,7 +64,7 @@
 
                 <div class="col-md-4">
                     <div class="thumbnail">
-                       <a href="#"><img src="img/portfolio6.jpg" style="height: 180px;"></a>
+                       <a href="#"><img src="img/portfolio6.jpg" style="height: 140px;"></a>
                         <div class="caption">
                         <h3>Opportunity Desk</h3>
                         <p>Websites</p>

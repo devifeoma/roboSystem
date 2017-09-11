@@ -1,13 +1,29 @@
-body h3{
+.navbar{
+	border-radius: 0px !important;
+	border-style: none;
+}
+
+.nav li a:hover{
+	color: white !important;
+	background: none !important;
+	font-size: 20px;
+
+}
+/*.carousel-control{
+	height: 0px !important;
+	width: 0px !important;
+}*/
+
+/*body h3{
 		color: #074F57;
 }
 
 body p{
 		color: #4B4B4B;
 		font-size: 15px;
-}
+}*/
 
-
+/*
 body a:hover{
 	color: red;
 }
@@ -19,19 +35,15 @@ body a:hover{
  body a:active{
 	color: green;
 }
+*/
 
-
-.bg-home{
+/*.bg-home{
 	background:linear-gradient(100deg, rgba(0,0,128, 0.3) -30%, rgba(0,0,128, 0.4) 70%),url(../img/robot.jpg)!important; 
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
-}
+	background-position: absolute;
+}*/
 
-.nav-dec{
-		margin-top: 9px;
-		padding: 6px;
-		font-size: 14px;
-}
 
 .li{
 	color: #077187;
@@ -42,8 +54,11 @@ body a:hover{
 }
 
 
-.ul{
+/*.ul{
 	list-style-type: none outside;
+}*/
+.portfolio{
+	border-radius: 0px;
 }
 
 

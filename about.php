@@ -1,4 +1,4 @@
-<?php include('header.php');?> 
+<?php $page= 'about'; include('header.php');?> 
 <div class="container">
 	<div class="row">
 			<h3>The Company</h3><hr>

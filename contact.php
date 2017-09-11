@@ -1,4 +1,4 @@
-<?php include("header.php");?>
+<?php $page = 'about'; include("header.php");?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
@@ -10,13 +10,13 @@
 				
 					<div class="form-group">
 						<label for="name">Name*</label>
-						<input type="text" class="form-control" id="">
+						<input type="text" class="form-control" id="" style="height: 50px;">
 					</div>
 
 
 					<div class="form-group">
 						<label for="name">Email*</label>
-						<input type="text" class="form-control" id="">
+						<input type="text" class="form-control" id="" style="height: 50px;">
 					</div>
 
 					<div class="form-group">

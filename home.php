@@ -1,58 +1,65 @@
-<?php include('header.php');?>   
+<?php $page='home'; include('header.php');?>  
+
+<div id="carousel-id" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+    <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+    <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item">
+      <img alt="First slide" src="img/robot-wallpaper.jpg" style="height: 650px; min-width: 100%;">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Example headline.</h1>
+        </div>
+      </div> 
+    </div>
+    <div class="item">
+      <img alt="Second slide" src="img/website-design.jpg" style="height: 650px; min-width: 100%;">
+       <div class="container">
+        <div class="carousel-caption">
+          <h1>Another example headline.</h1>
+        </div>
+      </div> 
+    </div>
+    <div class="item active">
+      <img alt="Third slide" src="img/website-design2.jpg" style="height: 650px; min-width: 100%;">
+       <div class="container">
+        <div class="carousel-caption">
+          <h1>One more for good measure.</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--   <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>  -->
+</div> 
   	
-    <div class="bg-home" style="height: 500px;">
-  	</div>
+
 
   	<p class="clearfix"></p>
     <h3 class="header">What We Offer</h3><hr>
 
-    <div class="container">
+    <div class="container" id="product">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="img/web_dev.png" height="150">
-          <h3>Web Design and Development</h3><hr>
-          <p>It’s all simple now. Your business can make and accept pay 
-          mobile money wallets, and bank accounts -- from anywhere in 
-          world, all from one integrated platform.
-          It’s all simple now. Your business can make and accept paym
-          mobile money wallets, and bank accounts -- from anywhere in
-          It’s all simple now. Your business can make and accept paym
-          mobile money wallets, and bank accounts -- from anywhere 
-          It’s all simple now. Your business can make and accept pa 
-          mobile money wallets, and bank accounts -- from anywhere</p>
-          <a href="web-dev.php"><button type="button" class="btn btn-primary">Read more</button></a>
-
-          
+        <div class="col-md-3">
+          <img src="img/web_dev.png" style="height: 170px;">
+          <h4>Web Design & Development</h4>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="img/Icon-security.png" height="150">
-          <h3>Data and Office Security</h3><hr>
-          <p>It’s all simple now. Your business can make and accept pay 
-          mobile money wallets, and bank accounts -- from anywhere in 
-          world, all from one integrated platform.
-          It’s all simple now. Your business can make and accept paym
-          mobile money wallets, and bank accounts -- from anywhere in
-          It’s all simple now. Your business can make and accept paym
-          mobile money wallets, and bank accounts -- from anywhere 
-          It’s all simple now. Your business can make and accept pa 
-          mobile money wallets, and bank accounts -- from anywhere</p>
-          <a href="data-office.php"><button type="button" class="btn btn-primary">Read more</button></a>
+         <div class="col-md-3">
+            <img src="img/icon-security.png" style="height: 170px;">
+            <h4>Data & Office Security</h4>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="img/erp-icon.png" height="150">
-          <h3>ERP Solution</h3><hr>
-          <p>It’s all simple now. Your business can make 
-          mobile money wallets, and bank accounts -- from 
-          world, all from one integrated platform.
-          It’s all simple now. Your business can make and
-          mobile money wallets, and bank accounts -- from
-          It’s all simple now. Your business can make and
-          mobile money wallets, and bank accounts -- from 
-          It’s all simple now. Your business can make and 
-          mobile money wallets, and bank accounts -- from</p>
-          <a href="erp-solutions.php"><button type="button" class="btn btn-primary">Read more</button></a>
-          
+         <div class="col-md-3">
+          <img src="img/crm2.png" style="height: 170px;">
+          <h4>ERP Solution</h4>
         </div>
+         <div class="col-md-3">
+          <img src="img/erp-icon.png" style="height: 170px;">
+          <h4>CRM Solutions</h4>
+        </div>
+        
         
       </div>
       
@@ -63,7 +70,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="thumbnail">
+          <div class="thumbnail portfolio">
             <a href="cruise.php"><img src="img/portfolio1.jpg" alt=""></a>
             <div class="caption">
               <h3>Cruise Nigeria</h3>
@@ -74,7 +81,7 @@
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="thumbnail">
+          <div class="thumbnail portfolio">
             <a href="reelfruit.php"><img src="img/portfolio2.jpg" alt=""></a>
               <div class="caption">
             <h3>Reelfruit</h3>
@@ -85,7 +92,7 @@
         </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="thumbnail">
+        <div class="thumbnail portfolio">
           <a href="ccm.php"><img src="img/portfolio3.jpg" alt=""></a>
             <div class="caption">
           <h3>CCM Alumini Portal</h3>
@@ -95,8 +102,8 @@
       
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="thumbnail">
+      <div class="col-xs-12 col-sm-6 col-md-3 portfolio">
+        <div class="thumbnail portfolio ">
           <a href="cnmedia.php"><img src="img/portfolio4.jpg" alt=""></a>
             <div class="caption">
           <h3>CNMedia Website</h3>

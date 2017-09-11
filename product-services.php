@@ -1,4 +1,4 @@
-<?php include("header.php");?>
+<?php $page= 'products'; include("header.php");?>
 	<div class="container">
 		<div class="row">
 			
@@ -24,7 +24,7 @@
 				<div class="col-md-3">
 								<img src="img/erp-icon.png" height="100">
           <h3>ERP Solutions</h3><br>
-          <p>It’s all simple now. Your business can make and accept pay 
++          <p>It’s all simple now. Your business can make and accept pay 
           mobile money wallets, and bank accounts -- from anywhere in 
           world, all from one integrated platform.
           It’s all simple now. Your business can make and accept paym
