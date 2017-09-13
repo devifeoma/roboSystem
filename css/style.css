@@ -1,74 +1,91 @@
+/*body{
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #7f7f7f !important;
+  line-height: 1.7px !important;
+}*/
+@font-face{
+  font-family: 'Lato';
+  src: url('../../Philosopher/Philosopher-Bold.ttf');
+  src: url('../../Philosopher/Philosopher-BoldItalic.ttf');
+  src: url('../../Philosopher/Philosopher-Italic.ttf');
+  src: url('../../Lato/Lato-Regular.ttf');
+}
+.text{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #808782; !important;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+
+.front-page{
+    background-image: url('../img/robot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    position: relative;
+    padding-top: 198px;
+    padding-bottom: 30%;
+    overflow-x: hidden;
+    background-attachment: fixed !important;
+    background-blend-mode: normal !important;
+}
 .navbar{
-	border-radius: 0px !important;
-	border-style: none;
+  position: absolute;
+  margin-top: -180px;
 }
 
-.nav li a:hover{
-	color: white !important;
-	background: none !important;
-	font-size: 20px;
-
+.services-icon i{
+  font-size: 100px;
+  color: navy;
 }
-/*.carousel-control{
-	height: 0px !important;
-	width: 0px !important;
-}*/
-
-/*body h3{
-		color: #074F57;
+.social-icon i{
+  font-size: 30px !important;
+  padding: 5px !important;
+  color: #808782;
+}
+.social-icon i:hover{
+  color: navy;
 }
 
-body p{
-		color: #4B4B4B;
-		font-size: 15px;
-}*/
-
-/*
-body a:hover{
-	color: red;
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.carousel {
+    margin-bottom: 0;
+  padding: 0 40px 30px 40px;
 }
- body a:active{
-	color: blue;
+/* Reposition the controls slightly */
+.carousel-control {
+  left: -12px;
+  width: 4% !important;
+  top: 150px !important;
 }
-
-
- body a:active{
-	color: green;
+.carousel-control.right {
+  right: -12px;
+  background:navy !important;
 }
-*/
-
-/*.bg-home{
-	background:linear-gradient(100deg, rgba(0,0,128, 0.3) -30%, rgba(0,0,128, 0.4) 70%),url(../img/robot.jpg)!important; 
-	background-size: cover !important;
-	background-repeat: no-repeat !important;
-	background-position: absolute;
-}*/
-
-
-.li{
-	color: #077187;
+.carousel-control.left {
+  left: -12px;
+  background:navy !important;
+  
 }
-.header{
-		text-align: center;
-		font-size: 40px;
+/* Changes the position of the indicators */
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  left: 77% !important;
+  bottom: 0px;
+  margin-right: -19px;
 }
-
-
-/*.ul{
-	list-style-type: none outside;
-}*/
-.portfolio{
-	border-radius: 0px;
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+  background: #c0c0c0;
 }
-
-
-#footer{
-		background-color: black;
-		margin-top: 20px;
-}
-#footer h3{
-			color: #074F57;
-			margin-top: 40px;
+.carousel-indicators .active {
+background: navy !important;
 }
 
 
