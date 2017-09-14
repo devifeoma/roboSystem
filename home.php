@@ -85,7 +85,7 @@
                     <h3>Data & Office Security</h3>  
                    </div>
                    <div class="description">
-                    <p class="j-ta text">Do you need better security for your business? Ensure the safety and protection of your data from viruses and malwares by subscribing to our security solutions today. We can provide you with data security and backup softwares and services, as well as office security using Biometrics, Eye Scanning and Face Recognition technology. If you want to ensure your business will never experience a breakdown and/or to prevent privacy theft that may cause loss of sensitive information in your business, then you should try one of our solutions</p>
+                    <p class="j-ta text">Do you need better security for your business? Ensure the safety and protection of your data from viruses and malwares by subscribing to our security solutions today. We can provide you with data security and backup softwares and services, as well as office security using Biometrics, Eye Scanning and Face Recognition technology. If you want to ensure your business will never experience a breakdown</p>
                        
                    </div>
                 </div>
@@ -95,7 +95,7 @@
                             <h3>ERP Solutions</h3>  
                         </div>
                    <div class="description">
-                    <p class="j-ta text">We provide enterprise resource planning software for corporations/institutions. Our solutions include robust staff management solutions, development of document processing systems, report generation, conversion of manual documents to digital forms, project and task management systems, as well as automated help provisioning or support systems. Our softwares have the capacity to transform your business into a much more efficient system in both quality and cost. </p>
+                    <p class="j-ta text">We provide enterprise resource planning software for corporations/institutions. Our solutions include robust staff management solutions, development of document processing systems, report generation, conversion of manual documents to digital forms, project and task management systems, as well as automated help provisioning or support systems.</p>
                        
                    </div>
                 </div>
